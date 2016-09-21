@@ -1,0 +1,49 @@
+/**
+ * Base16 Bape Light
+ *
+ * @author Stefan Bowerman (http://github.com/stefbowerman)
+ *
+ * Rainbow template by Jan T. Sott (https://github.com/idleberg/)
+ * Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+ */
+pre {
+    background-color: #ede3d9;
+    word-wrap: break-word;
+    margin: 0px;
+    padding: 10px;
+    color: #171717;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+pre, code {
+    font-family: 'Monaco', courier, monospace;
+}
+
+pre .comment {
+    color: #ddc3a4;
+}
+
+pre .variable.global, pre .variable.class, pre .variable.instance {
+    color: #aa7944; /* red */
+}
+
+pre .constant.numeric, pre .constant.language, pre .constant.hex-color, pre .keyword.unit {
+    color: #dbc040; /* orange */
+}
+
+pre .constant, pre .entity, pre .entity.class, pre .support {
+    color: #d8cea3; /* yellow */
+}
+
+pre .constant.symbol, pre .string {
+    color: #597a56; /* green */
+}
+
+pre .entity.function, pre .support.css-property, pre .selector {
+    color: #f1a856; /* blue */
+}
+
+pre .keyword, pre .storage {
+    color: #dbd886; /* purple */
+}

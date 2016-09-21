@@ -1,0 +1,33 @@
+/*
+
+    Name:       Base16 Bape Light
+    Author:     Stefan Bowerman (http://github.com/stefbowerman)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-base16-bape-light.CodeMirror {background: #ede3d9; color: #3f3a36;}
+.cm-s-base16-bape-light div.CodeMirror-selected {background: #e7d8c6 !important;}
+.cm-s-base16-bape-light .CodeMirror-gutters {background: #ede3d9; border-right: 0px;}
+.cm-s-base16-bape-light .CodeMirror-linenumber {color: #ddc3a4;}
+.cm-s-base16-bape-light .CodeMirror-cursor {border-left: 1px solid #9c8a79 !important;}
+
+.cm-s-base16-bape-light span.cm-comment {color: #7c5041;}
+.cm-s-base16-bape-light span.cm-atom {color: #dbd886;}
+.cm-s-base16-bape-light span.cm-number {color: #dbd886;}
+
+.cm-s-base16-bape-light span.cm-property, .cm-s-base16-bape-light span.cm-attribute {color: #597a56;}
+.cm-s-base16-bape-light span.cm-keyword {color: #aa7944;}
+.cm-s-base16-bape-light span.cm-string {color: #d8cea3;}
+
+.cm-s-base16-bape-light span.cm-variable {color: #597a56;}
+.cm-s-base16-bape-light span.cm-variable-2 {color: #f1a856;}
+.cm-s-base16-bape-light span.cm-def {color: #dbc040;}
+.cm-s-base16-bape-light span.cm-error {background: #aa7944; color: #9c8a79;}
+.cm-s-base16-bape-light span.cm-bracket {color: #3f3a36;}
+.cm-s-base16-bape-light span.cm-tag {color: #aa7944;}
+.cm-s-base16-bape-light span.cm-link {color: #dbd886;}
+
+.cm-s-base16-bape-light .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

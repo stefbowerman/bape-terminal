@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+; Base16 Bape (https://github.com/chriskempson/base16)
+; Scheme: Stefan Bowerman (http://github.com/stefbowerman)
+
+[HKEY_CURRENT_USER\Console]
+"ColorTable00"=dword:00171717
+"ColorTable01"=dword:0056a8f1
+"ColorTable02"=dword:00567a59
+"ColorTable03"=dword:00589b37
+"ColorTable04"=dword:0040c0db
+"ColorTable05"=dword:0086d8db
+"ColorTable06"=dword:00a3ced8
+"ColorTable07"=dword:00a4c3dd
+"ColorTable08"=dword:00798a9c
+"ColorTable09"=dword:0056a8f1
+"ColorTable10"=dword:00567a59
+"ColorTable11"=dword:00589b37
+"ColorTable12"=dword:004479aa
+"ColorTable13"=dword:0041507c
+"ColorTable14"=dword:00a3ced8
+"ColorTable15"=dword:00d9e3ed

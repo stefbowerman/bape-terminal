@@ -1,0 +1,6 @@
+# dmenu template
+# Base16 Bape Light, by Stefan Bowerman (http://github.com/stefbowerman)
+# template by Matt Parnell, @parnmatt
+
+# add this as an alias, or however you wish to run dmenu
+dmenu -nb 'e2cdb5' -nf '685e54' -sb 'f1a856' -sf '3f3a36'

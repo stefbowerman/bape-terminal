@@ -1,0 +1,23 @@
+/* Base16 Bape
+Scheme: Stefan Bowerman (http://github.com/stefbowerman) */
+
+table.sourceCode, tr.sourceCode, td.sourceCode, table.sourceCode pre
+{ margin: 0; padding: 0; border: 0; vertical-align: baseline; border: none; background-color: #171717; color: #e2cdb5 }
+td.nums { text-align: right; padding-right: 5px; padding-left: 5px; background-color: #3f3a36; }
+td.sourceCode { padding-left: 5px; }
+code.sourceCode { background-color: #171717; }
+pre.sourceCode { background-color: #171717; line-height: 125% }
+td.nums pre { background-color: #3f3a36; line-height: 125% }
+code.sourceCode span.kw { color: #f1a856; font-weight: bold } /* Keyword */
+code.sourceCode span.dt { color: #dbd886} /* Keyword.Type */
+code.sourceCode span.dv { color: #dbc040 } /* Literal.Number.Integer */
+code.sourceCode span.bn { color: #dbc040 } /* Literal.Number.Hex */
+code.sourceCode span.fl { color: #dbc040 } /* Literal.Number.Float */
+code.sourceCode span.ch { color: #597a56} /* Literal.String.Char */
+code.sourceCode span.st { color: #597a56 } /* Literal.String */
+code.sourceCode span.co { color: #9c8a79 } /* Comment */
+code.sourceCode span.ot { color: #7c5041 } /* Comment.Preproc */
+code.sourceCode span.al { color: #dbd886 } /* Generic.Error */
+code.sourceCode span.fu { color: #d8cea3 } /* Name.Function */
+code.sourceCode span.re { color: #379b58}
+code.sourceCode span.er { color: #aa7944; border: 1px solid #dbd886 } /* Error */

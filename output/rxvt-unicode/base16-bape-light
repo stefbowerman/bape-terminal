@@ -1,0 +1,52 @@
+! Base16 Bape
+! Scheme: Stefan Bowerman (http://github.com/stefbowerman)
+
+! URxvt*tintColor:                      color
+! URxvt*fadeColor:                      color
+
+URxvt*background:                     #ede3d9
+URxvt*foreground:                     #685e54
+URxvt*cursorColor:                    #685e54
+
+! URxvt*colorBD:                        color
+! URxvt*colorIT:                        color
+! URxvt*colorUL:                        color
+! URxvt*colorRV:                        color
+! URxvt*underlineColor:                 color
+URxvt*scrollColor:                    #e2cdb5
+! URxvt*troughColor:                    color
+URxvt*highlightColor:                 #ede3d9
+URxvt*highlightTextColor:             #e2cdb5
+! URxvt*cursorColor2:                   color
+! URxvt*pointerColor:                   color
+! URxvt*pointerColor2:                  color
+! URxvt*borderColor:                    color
+! URxvt*tab-bg:                         colour
+! URxvt*tab-fg:                         colour
+! URxvt*tabbar-bg:                      colour
+! URxvt*tabbar-fg:                      colour
+
+URxvt*color0:                         #171717
+URxvt*color1:                         #aa7944
+URxvt*color2:                         #597a56
+URxvt*color3:                         #d8cea3
+URxvt*color4:                         #f1a856
+URxvt*color5:                         #dbd886
+URxvt*color6:                         #379b58
+URxvt*color7:                         #e2cdb5
+URxvt*color8:                         #9c8a79
+URxvt*color9:                         #aa7944
+URxvt*color10:                        #597a56
+URxvt*color11:                        #d8cea3
+URxvt*color12:                        #f1a856
+URxvt*color13:                        #dbd886
+URxvt*color14:                        #379b58
+URxvt*color15:                        #ede3d9
+
+! 256 color space
+URxvt*color16:                        #dbc040
+URxvt*color17:                        #7c5041
+URxvt*color18:                        #3f3a36
+URxvt*color19:                        #685e54
+URxvt*color20:                        #ddc3a4
+URxvt*color21:                        #e7d8c6

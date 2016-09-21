@@ -1,0 +1,116 @@
+/*
+
+    Name:       Base16 Bape Light
+    Author:     Stefan Bowerman (http://github.com/stefbowerman)
+
+    highlight.js v8.0 template by Jan T. Sott (https://github.com/idleberg/base16-highlight.js)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+/* Bape Comment */
+.hljs-comment {
+  color: #9c8a79;
+}
+
+/* Bape Red */
+.hljs-variable,
+.hljs-attribute,
+.hljs-tag,
+.hljs-regexp,
+.hljs-name,
+.ruby .hljs-constant,
+.xml .hljs-tag .hljs-title,
+.xml .hljs-pi,
+.xml .hljs-doctype,
+.html .hljs-doctype,
+.css .hljs-id,
+.css .hljs-class,
+.css .hljs-pseudo {
+  color: #aa7944;
+}
+
+/* Bape Orange */
+.hljs-number,
+.hljs-preprocessor,
+.hljs-built_in,
+.hljs-literal,
+.hljs-params,
+.hljs-constant {
+  color: #dbc040;
+}
+
+/* Bape Yellow */
+.ruby .hljs-class .hljs-title,
+.css .hljs-rule .hljs-attribute {
+  color: #d8cea3;
+}
+
+/* Bape Green */
+.hljs-string,
+.hljs-value,
+.hljs-inheritance,
+.hljs-header,
+.ruby .hljs-symbol,
+.xml .hljs-cdata {
+  color: #597a56;
+}
+
+/* Bape Aqua */
+.hljs-title,
+.css .hljs-hexcolor {
+  color: #379b58;
+}
+
+/* Bape Blue */
+.hljs-function,
+.python .hljs-decorator,
+.python .hljs-title,
+.ruby .hljs-function .hljs-title,
+.ruby .hljs-title .hljs-keyword,
+.perl .hljs-sub,
+.javascript .hljs-title,
+.coffeescript .hljs-title {
+  color: #f1a856;
+}
+
+/* Bape Purple */
+.hljs-keyword,
+.javascript .hljs-function {
+  color: #dbd886;
+}
+
+.diff .hljs-deletion,
+.diff .hljs-addition {
+  color: #171717;
+  display: inline-block;
+  width: 100%;
+}
+.diff .hljs-deletion {
+  background-color: #aa7944;
+}
+.diff .hljs-addition {
+  background-color: #597a56;
+}
+.diff .hljs-change {
+  color: #f1a856;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #ede3d9;
+  color: #685e54;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none;
+}
+
+.coffeescript .javascript,
+.javascript .xml,
+.tex .hljs-formula,
+.xml .javascript,
+.xml .vbscript,
+.xml .css,
+.xml .hljs-cdata {
+  opacity: 0.5;
+}

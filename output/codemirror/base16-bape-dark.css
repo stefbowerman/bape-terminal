@@ -1,0 +1,33 @@
+/*
+
+    Name:       Base16 Bape Dark
+    Author:     Stefan Bowerman (http://github.com/stefbowerman)
+
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+
+*/
+
+.cm-s-base16-bape-dark.CodeMirror {background: #171717; color: #e7d8c6;}
+.cm-s-base16-bape-dark div.CodeMirror-selected {background: #3f3a36 !important;}
+.cm-s-base16-bape-dark .CodeMirror-gutters {background: #171717; border-right: 0px;}
+.cm-s-base16-bape-dark .CodeMirror-linenumber {color: #9c8a79;}
+.cm-s-base16-bape-dark .CodeMirror-cursor {border-left: 1px solid #ddc3a4 !important;}
+
+.cm-s-base16-bape-dark span.cm-comment {color: #7c5041;}
+.cm-s-base16-bape-dark span.cm-atom {color: #dbd886;}
+.cm-s-base16-bape-dark span.cm-number {color: #dbd886;}
+
+.cm-s-base16-bape-dark span.cm-property, .cm-s-base16-bape-dark span.cm-attribute {color: #597a56;}
+.cm-s-base16-bape-dark span.cm-keyword {color: #aa7944;}
+.cm-s-base16-bape-dark span.cm-string {color: #d8cea3;}
+
+.cm-s-base16-bape-dark span.cm-variable {color: #597a56;}
+.cm-s-base16-bape-dark span.cm-variable-2 {color: #f1a856;}
+.cm-s-base16-bape-dark span.cm-def {color: #dbc040;}
+.cm-s-base16-bape-dark span.cm-error {background: #aa7944; color: #ddc3a4;}
+.cm-s-base16-bape-dark span.cm-bracket {color: #e7d8c6;}
+.cm-s-base16-bape-dark span.cm-tag {color: #aa7944;}
+.cm-s-base16-bape-dark span.cm-link {color: #dbd886;}
+
+.cm-s-base16-bape-dark .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

@@ -1,0 +1,225 @@
+// Atom template by Jan T. Sott (https://github.com/idleberg/)
+// Base16 scheme and Base16 Builder by Chris Kempson (https://github.com/chriskempson)
+
+@import "base16-bape-light-syntax-variables.less";
+
+atom-text-editor, // <- remove when Shadow DOM can't be disabled
+:host {
+  color: @syntax-text-color;
+  background-color: @syntax-background-color;
+  .gutter {
+    color: @syntax-gutter-text-color;
+    background-color: @syntax-gutter-background-color;
+  }
+
+  .gutter .line-number.cursor-line {
+    color: @syntax-gutter-text-color-selected;
+    background-color: @syntax-gutter-background-color-selected;
+  }
+
+  .gutter .line-number.cursor-line-no-selection {
+    color: @syntax-gutter-text-color-selected;
+  }
+
+  .wrap-guide {
+    color: @syntax-wrap-guide-color;
+  }
+
+  .indent-guide {
+    color: @syntax-indent-guide-color;
+  }
+
+  .invisible-character {
+    color: @syntax-invisible-character-color;
+  }
+
+  .search-results .marker .region {
+    background-color: transparent;
+    border: @syntax-result-marker-color;
+  }
+
+  .search-results .marker.current-result .region {
+    border: @syntax-result-marker-color-selected;
+  }
+
+  .cursor {
+    border-color: @syntax-cursor-color;
+  }
+
+  .selection .region {
+    background-color: @syntax-selection-color;
+  }
+
+  .line-number.cursor-line-no-selection, .line.cursor-line {
+    background-color: rgba(176, 176, 176, 0.33);
+  }
+
+}
+
+.variable.parameter.function {
+  color: #685e54;
+}
+
+.comment, .punctuation.definition.comment {
+  color: #ddc3a4;
+}
+
+.punctuation.definition.string, .punctuation.definition.variable, .punctuation.definition.string, .punctuation.definition.parameters, .punctuation.definition.string, .punctuation.definition.array {
+  color: #685e54;
+}
+
+.none {
+  color: #685e54;
+}
+
+.keyword.operator {
+  color: #685e54;
+}
+
+.keyword {
+  color: #dbd886;
+}
+
+.variable {
+  color: #aa7944;
+}
+
+.entity.name.function, .meta.require, .support.function.any-method {
+  color: #f1a856;
+}
+
+.support.class, .entity.name.class, .entity.name.type.class {
+  color: #dbc040;
+}
+
+.meta.class {
+  color: #3f3a36;
+}
+
+.keyword.other.special-method {
+  color: #f1a856;
+}
+
+.storage {
+  color: #dbd886;
+}
+
+.support.function {
+  color: #379b58;
+}
+
+.string, .constant.other.symbol, .entity.other.inherited-class {
+  color: #597a56;
+}
+
+.constant.numeric {
+  color: #dbc040;
+}
+
+.none {
+  color: #dbc040;
+}
+
+.none {
+  color: #dbc040;
+}
+
+.constant {
+  color: #dbc040;
+}
+
+.entity.name.tag {
+  color: #aa7944;
+}
+
+.entity.other.attribute-name {
+  color: #dbc040;
+}
+
+.entity.other.attribute-name.id, .punctuation.definition.entity {
+  color: #f1a856;
+}
+
+.meta.selector {
+  color: #dbd886;
+}
+
+.none {
+  color: #dbc040;
+}
+
+.markup.heading, .punctuation.definition.heading, .entity.name.section {
+  color: #f1a856;
+}
+
+.keyword.other.unit {
+  color: #dbc040;
+}
+
+.markup.bold, .punctuation.definition.bold {
+  font-weight: bold;
+  color: #dbc040;
+}
+
+.markup.italic, .punctuation.definition.italic {
+  font-style: italic;
+  color: #dbd886;
+}
+
+.markup.raw.inline {
+  color: #597a56;
+}
+
+.string.other.link {
+  color: #aa7944;
+}
+
+.meta.link {
+  color: #dbc040;
+}
+
+.markup.list {
+  color: #aa7944;
+}
+
+.markup.quote {
+  color: #dbc040;
+}
+
+.meta.separator {
+  color: #685e54;
+  background-color: #e7d8c6;
+}
+
+.markup.inserted {
+  color: #597a56;
+}
+
+.markup.deleted {
+  color: #aa7944;
+}
+
+.markup.changed {
+  color: #dbd886;
+}
+
+.constant.other.color {
+  color: #379b58;
+}
+
+.string.regexp {
+  color: #379b58;
+}
+
+.constant.character.escape {
+  color: #379b58;
+}
+
+.punctuation.section.embedded, .variable.interpolation {
+  color: #7c5041;
+}
+
+.invalid.illegal {
+  color: #ede3d9;
+  background-color: #aa7944;
+}
